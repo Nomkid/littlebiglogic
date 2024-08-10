@@ -1,4 +1,4 @@
-Table of conents:
+Table of contents:
 
 # Game mechanics
 
@@ -49,13 +49,13 @@ Table of conents:
 * Analog float arithmetic
 	* Addition and subtraction
 	* Multiplication
-	* Subtractive division
+	* Subtracting division
 	* Newton-Raphson division
 	* Arctan division
 * Control flow
 	* Encoders and decoders
 	* Multiplexers
-	* Frelay
+	* F-Relay
 * Tag-based computing
 	* Tag-based gates
 	* Emitter-based dynamic circuits
@@ -109,7 +109,7 @@ Table of conents:
 
 * Analog memory
 	* Single channel
-	* Dual channel and doublewords
+	* Dual channel and double-words
 	* Tag memory
 * Loop memory
 	* Loop core
@@ -241,11 +241,11 @@ Table of conents:
 # Modding
 
 * Memory manipulation
-	* Cheat Engine
-	* PINCE
+	* [Cheat Engine](https://www.cheatengine.org/)
+	* [PINCE](https://github.com/korcankaraokcu/PINCE)
 * LBP tools
-	* Toolkit
-	* Zizhzingers
+	* [Toolkit](https://github.com/ennuo/toolkit)
+	* [Zishzingers](https://github.com/Beyley/zishzingers)
 	* Save file decryption
 * Reverse engineering
 	* PowerPC
@@ -256,5 +256,5 @@ Table of conents:
 # Misc
 
 * Other tutorials
-	* LBPCentral Archive
+	* [LBPCentral Archive](https://lbpcentral.lbp-hub.com/)
 	* YouTube
