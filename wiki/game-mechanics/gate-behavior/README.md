@@ -85,7 +85,7 @@ TODO
 
 In LittleBigPlanet 2 it is possible to create signal values greater than 1 by repeatedly adding them together. This is because gates in this game do not cap their output between -1 and 1. If this is done repeatedly, a signal can be increased to a value of [infinity](https://en.wikipedia.org/wiki/IEEE_754#Infinities) (which shows up as `inf` on notes in LBP3).
 
-To get these values into LBP3, create them in an LBP2 level and import them. If you don't have LBP2, you can hack these values into the game using [memory manipulation]. Otherwise, if you are playing on RPCS3 you can use [this](inf_and_nan_level_lbp3.zip) level file. It also contains NaN.
+To get these values into LBP3, create them in an LBP2 level and import them. If you don't have LBP2, you can hack these values into the game using [memory manipulation](/wiki/modding/memory-manipulation/README.md). Otherwise, if you are playing on RPCS3 you can use [this](inf_and_nan_level_lbp3.zip) level file. It also contains NaN.
 
 ### Direction combiner with inf
 
@@ -124,7 +124,7 @@ To avoid encountering rounding errors when handling analog values in LittleBigPl
 * Don't use very small analog values, e.g. 2<sup>-50</sup>. When adding these to larger values, information will be lost.
 * When scaling values, chain OR gates instead of using one large OR gate. For example, to multiply an analog value `x` by 8 you should do `OR(x, x) -> OR(previous, previous) -> OR(previous, previous)` instead of `OR(x, x, x, x, x, x, x, x)`. This is not always necessary though.
 
-## Thermometer usages
+## Thermometer values
 
 These values for thermometer usage for different objects are approximate and derived from testing in-game in LittleBigPlanet 3:
 

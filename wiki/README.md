@@ -11,7 +11,7 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 		* Tags
 		* [Inf, NaN, and illegal values](game-mechanics/gate-behavior/README.md#inf-nan-and-illegal-values)
 		* [Rounding errors](game-mechanics/gate-behavior/README.md#rounding-errors)
-		* [Thermometer usage](game-mechanics/gate-behavior/README.md#thermometer-usage)
+		* [Thermometer values](game-mechanics/gate-behavior/README.md#thermometer-values)
 	* [Frame updates](game-mechanics/frame-updates/README.md)
 		* [Gate update order](game-mechanics/frame-updates/README.md)
 		* Update phases
@@ -21,7 +21,7 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 		* RPCS3
 
 * Computing components
-	* Analog value representationscomputing-components/analog-value-representations/README.md
+	* Analog value representations
 		* IEEE 754
 		* 2's complement
 		* Notes and readouts
