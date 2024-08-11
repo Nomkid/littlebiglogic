@@ -104,7 +104,11 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 	* Analog memory
 		* Single channel
 		* Dual channel and double-words
-		* Tag memory
+		* Byte packing
+	* [Tag memory](/wiki/memory/tag-memory/README.md)
+		* [Tag memory core](/wiki/memory/tag-memory/README.md#tag-memory-core)
+		* Reader
+		* Writer
 	* [Loop memory](memory/loop-memory/README.md)
 		* [Loop core](memory/loop-memory/README.md#loop-core)
 		* Reading
