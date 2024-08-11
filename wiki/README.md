@@ -14,7 +14,7 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 		* [Thermometer values](game-mechanics/gate-behavior/README.md#thermometer-values)
 	* [Frame updates](game-mechanics/frame-updates/README.md)
 		* [Gate update order](game-mechanics/frame-updates/README.md)
-		* Update phases
+		* [Update phases](/wiki/game-mechanics/frame-updates/README.md#update-phases)
 		* Specific gate priorities
 	* Differences between games
 		* LBP2
@@ -29,7 +29,7 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 		* Fixed point
 		* 16-bit IEEE 754
 	* [Analog conversions](computing-components/analog-conversions/README.md)
-		* Digital to analog combiner/encoder
+		* [Digital to analog combiner/encoder](/wiki/computing-components/analog-conversions/README.md#digital-to-analog-combinerencoder)
 		* [Pure analog splitter/decoder](/wiki/computing-components/analog-conversions/README.md#pure-analog-splitterdecoder)
 		* Basic analog to digital splitter/decoder
 		* [2-gate analog to digital splitter/decoder](computing-components/analog-conversions/README.md#-2-gate-analog-to-digital-splitterdecoder)
@@ -56,7 +56,7 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 		* Encoders and decoders
 		* Multiplexers
 		* F-Relay
-	* Tag-based computing
+	* [Tag-based computing](/wiki/computing-components/tag-based-computing/README.md)
 		* Tag-based gates
 		* Emitter-based dynamic circuits
 	* Instruction decoding
@@ -66,7 +66,6 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 	* Feedback loops
 		* Direct loops
 		* Tag loop
-		* Registers
 	* Debugging
 		* Controlled pulses
 		* Signal probe
@@ -101,7 +100,8 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 		* Core specialization
 
 * Memory
-	* Analog memory
+	* [Analog memory](/wiki/memory/analog-memory/README.md)
+    	* [Registers](/wiki/memory/analog-memory/README.md#registers)
 		* Single channel
 		* Dual channel and double-words
 		* Byte packing
@@ -225,7 +225,7 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 * Modding
 	* [Memory manipulation](modding/memory-manipulation/README.md)
 		* [Cheat Engine](modding/memory-manipulation/README.md#cheat-engine)
-		* [PINCE](https://github.com/korcankaraokcu/PINCE)
+		* [PINCE](modding/memory-manipulation/README.md#pince)
 	* LBP tools
 		* [Toolkit](https://github.com/ennuo/toolkit)
 		* [Zishzingers](https://github.com/Beyley/zishzingers)

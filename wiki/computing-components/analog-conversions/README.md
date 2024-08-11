@@ -2,7 +2,11 @@
 
 ## Digital to analog combiner/encoder
 
- TODO
+Up to 24 bits can be encoded into a single analog value using a digital to analog combiner circuit as shown:
+
+![image](combiner1.png)
+
+Repeat the pattern for as many bits as needed. The orange battery is 50%. Note that the input bits are interpreted as being on if they have an analog value of 100% and off if it is 0% or 100%. Their digital value is not relevant.
 
 ## Pure analog splitter/decoder
 

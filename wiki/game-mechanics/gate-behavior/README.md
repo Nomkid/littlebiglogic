@@ -38,6 +38,8 @@ Signal values may have an associated player color corresponding to one of the up
 
 It is very difficult to extract this information again after it has been stored in a wire so it is not very useful for logic.
 
+[Video demonstrating color held in a signal](color1.mp4). The two sticker panels are set to use player color.
+
 ## AND, OR, XOR, NOT
 
 ### XOR
