@@ -108,7 +108,8 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 	* [Tag memory](/wiki/memory/tag-memory/README.md)
 		* [Tag memory core](/wiki/memory/tag-memory/README.md#tag-memory-core)
 		* Reader
-		* Writer
+		* [Writer](/wiki/memory/tag-memory/README.md#writer)
+		* Prewriter
 	* [Loop memory](memory/loop-memory/README.md)
 		* [Loop core](memory/loop-memory/README.md#loop-core)
 		* Reading
@@ -167,7 +168,7 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 		* Melody sequences
 
 * Existing CPU designs
-	* V8
+	* [V8](/wiki/existing-cpu-designs/v8/README.md)
 		* Digital architecture
 		* ISA
 		* Twinbey
@@ -183,7 +184,7 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 		* Branching
 		* ISA
 		* Software
-	* Bitzzy
+	* [Bitzzy](/wiki/existing-cpu-designs/bitzzy/README.md)
 		* Mixed architecture
 		* ISA
 		* Software

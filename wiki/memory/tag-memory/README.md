@@ -19,7 +19,7 @@ Create tag memory by placing a series of tag sensors connected to tags of the sa
 
 ![image](tag-memory-1.jpg)
 
-This central microchip with the four tag sensor/tag pairs forms a block of tag memory, in this case holding four analog values.
+This central microchip with the four tag sensor/tag pairs forms a block of tag memory, in this case holding four analog values. The writer is the yellow square, the reader is the green square. Multiple tag memory blocks (blue) can be placed side-by-side as shown. Followers or something else can be added to the writer and reader to allow them to move between blocks.
 
 TODO
 
@@ -28,5 +28,22 @@ TODO
 TODO
 
 # Writer
+
+To write to a tag memory block, move the writer to the block you wish to write to and activate the yellow write tag. This will disable the microchip with the tag loops inside it, causing them to all become deactivated. You can then activate the value tags with the analog values you wish to write, storing them in the block. This will leave a period of 2 frames where the value cannot be read directly from memory.
+
+| Frame | Action                                                | Value can be read from memory |
+| ----- | ----------------------------------------------------- | ----------------------------- |
+| 1     | Move writer into correct position, activate write tag | Yes                           |
+| 2     | None                                                  | No                            |
+| 3     | Activate value tags                                   | No                            |
+| 4     | None                                                  | Yes                           |
+
+
+TODO
+
+
+# Prewriter
+
+It is possible to overcome the 2 frame gap where memory can't be read and allow memory accesses every frame by using a prewriter.
 
 TODO
