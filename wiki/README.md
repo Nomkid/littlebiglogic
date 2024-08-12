@@ -40,11 +40,11 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 		* Addition
 		* Subtraction
 		* Bitshifting and rotation
-	* Analog integer arithmetic
+	* [Analog integer arithmetic](/wiki/computing-components/analog-integer-arithmetic/README.md)
 		* Addition and subtraction
-		* Comparisons
+		* [Comparisons](/wiki/computing-components/analog-integer-arithmetic/README.md#comparisons)
 		* Multiplication
-		* Division
+		* [Division](/wiki/computing-components/analog-integer-arithmetic/README.md#division)
 		* Arbitrary bitshifting
 	* Analog float arithmetic
 		* Addition and subtraction

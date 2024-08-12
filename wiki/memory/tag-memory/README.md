@@ -13,6 +13,8 @@ Using the right optimizations and a sufficiently advanced memory controller, it 
 
 Tag memory has an amortized thermometer cost of 1 tag sensor + 1 tag + the wire between them per analog value. Using [current esimates of thermometer costs](/wiki/game-mechanics/gate-behavior/README.md#thermometer-values) this means 42 thermometer points per analog value, so ~71kB per level. In practice, other required components bring this down to ~30kB per level.
 
+Tag memory is basically like [loop memory](/wiki/memory/loop-memory/README.md), except each loop only has a length of 1. This makes it significantly easier to use.
+
 # Tag memory core
 
 Create tag memory by placing a series of tag sensors connected to tags of the same color and label inside a microchip as shown:
