@@ -6,15 +6,15 @@ TODO
 
 ## Comparisons
 
-### Basic analog comparison
+### Basic analog equality
 
-A circuit to compare two analog signals:
+A circuit to check for equality between two analog signals:
 
 ![image](eq2.png)
 
 The pink OR gate is in max value mode. The other OR gates are in add mode. The AND gate is in add mode. This will work for positive and negative analog values. It will output an analog value of 100% if the values are equal, 0% otherwise.
 
-### Inf direction combiner comparison
+### Inf direction combiner equality
 
 A more efficient equality checker can be built with a direction combiner and an input of `-inf`:
 
