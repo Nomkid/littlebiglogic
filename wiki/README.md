@@ -185,9 +185,11 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 		* ISA
 		* Software
 	* [Bitzzy](/wiki/existing-cpu-designs/bitzzy/README.md)
-		* Mixed architecture
-		* ISA
-		* Software
+		* [Interrupts](/wiki/existing-cpu-designs/bitzzy/README.md#interrupts)
+		* [Return Stack](/wiki/existing-cpu-designs/bitzzy/README.md#return-stack)
+		* [Remainders](/wiki/existing-cpu-designs/bitzzy/README.md#remainders)
+		* [ISA](/wiki/existing-cpu-designs/bitzzy/README.md#isa)
+		* [Software](/wiki/existing-cpu-designs/bitzzy/README.md#software)
 	* Other CPUs
 		* Lodestar
 

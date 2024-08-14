@@ -16,7 +16,7 @@ The pink OR gate is in max value mode. The other OR gates are in add mode. The A
 
 ### Inf direction combiner equality
 
-A more efficient equality checker can be built with a direction combiner and an input of `-inf`:
+A more efficient equality checker can be built with a [Holy Cow converter](/wiki/computing-components/analog-conversions/README.md#holy-cow-converter).
 
 ![image](eq1.png)
 
@@ -34,7 +34,7 @@ TODO
 
 The top output is the quotient. The bottom output is the remainder. This design can be adapted for any word size up to 24 bits. Ensure the AND gate with the battery at the bottom is outputting a value of 1 for the word size you're using. In this example, the word size is 16 bits so a value of 2<sup>-16</sup> is needed, which is equal to 0.25<sup>8</sup> hence the 8 inputs into the AND gate.
 
-A more efficiency design could be built using direction combiners.
+A more efficient design could be built using Holy Cow converters.
 
 ## Arbitrary bitshifting
 
