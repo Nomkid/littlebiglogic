@@ -39,3 +39,12 @@ A more efficient design could be built using Holy Cow converters.
 ## Arbitrary bitshifting
 
 TODO
+
+24-bit analog bitshifter:
+
+![image](bitshifter1.png)
+![image](bitshifter2.png)
+
+Orange batteries are -50%, red -100%, blue 50%.
+
+If you have access to values >100% then the shifting microchips can be replaced with direct multiplication and the 5-bit splitter can be replaced with one using Holy Cow converters.

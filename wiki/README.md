@@ -32,7 +32,7 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 		* [Digital to analog combiner/encoder](/wiki/computing-components/analog-conversions/README.md#digital-to-analog-combinerencoder)
 		* [Pure analog splitter/decoder](/wiki/computing-components/analog-conversions/README.md#pure-analog-splitterdecoder)
 		* Basic analog to digital splitter/decoder
-		* [2-gate analog to digital splitter/decoder](computing-components/analog-conversions/README.md#-2-gate-analog-to-digital-splitterdecoder)
+		* [2-gate analog to digital splitter/decoder](computing-components/analog-conversions/README.md#holy-cow-converter)
 		* Greater than 24-bit splitter/decoder
 		* Analog bitshifting
 	* Digital integer arithmetic
@@ -45,7 +45,7 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 		* [Comparisons](/wiki/computing-components/analog-integer-arithmetic/README.md#comparisons)
 		* Multiplication
 		* [Division](/wiki/computing-components/analog-integer-arithmetic/README.md#division)
-		* Arbitrary bitshifting
+		* [Arbitrary bitshifting](/wiki/computing-components/analog-integer-arithmetic/README.md#arbitrary-bitshifting)
 	* Analog float arithmetic
 		* Addition and subtraction
 		* Multiplication

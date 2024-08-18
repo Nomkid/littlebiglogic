@@ -29,13 +29,9 @@ To use this testing circuit, you must always re-place the top four gates in the 
 
 My current theory for how logic updates work is that there are distinct "phases" each frame.
 
-### Physics
-
-The first phase is physics. Objects move and logic components that physically affect objects like movers and destroyers take effect.
-
 ### Tags
 
-The second phase is tags. Tags update their signal values to whatever values are being sent into their inputs. Tag sensors update their output values according to the values of the tags around them.
+The first phase is tags. Tags update their signal values to whatever values are being sent into their inputs. Tag sensors update their output values according to the values of the tags around them.
 
 Tags and tag sensors can update together in a frame in any order, depending on how they were placed/created. So with the right placement order you can have a series of tags and tag sensors that propagate a value in a single frame. Example:
 
@@ -49,7 +45,13 @@ The buffer gates above will only be updated in the next phase, and so values can
 
 ### Logic
 
-The third phase is other logic gates.
+The second phase is other logic gates.
+
+### Physics
+
+The last phase is physics. Logic components that physically move objects like movers and followers take effect now.
+
+Note that if you pause the game, if an object is moving, then the location that it appears to be will be different to its location at the start of the frame when tag updates were executed.
 
 
 ## Specific gate priorities
