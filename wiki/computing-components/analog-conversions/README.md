@@ -52,9 +52,9 @@ For example, suppose you have the 24-bit value `0xabcdef` (`~67.11%`). Multiply 
 | Before multiplication         | `0xabcdef.000000` | `0b10101011_11001101_11101111.00000000_00000000_00000000` | ~`67.1111%`  |
 | Multiply by 2<sup>-8</sup>    | `0x00abcd.ef0000` | `0b00000000_10101011_11001101.11101111_00000000_00000000` | ~`0.2622%`   |
 | First NOT (without rounding) | `0xff5432.110000` | `0b11111111_01010100_00110010.00010001_00000000_00000000` | ~`99.7378%`  |
-| First NOT (with rounding) | `0xff5432.000000` | `0b11111111_01010100_00110011.00000000_00000000_00000000` | ~`99.7378%`  |
+| First NOT (with rounding) | `0xff5432.000000` | `0b11111111_01010100_00110010.00000000_00000000_00000000` | ~`99.7378%`  |
 | Second NOT | `0x00abce.000000` | `0b00000000_10101011_11001110.00000000_00000000_00000000` | ~`0.2622%`  |
-| Multiply by 2<sup>8</sup>    | `0xabce00.000000` | `0b10101011_11001110_00000000.00000000_00000000_00000000` | ~`61.1112%`   |
+| Multiply by 2<sup>8</sup>    | `0xabce00.000000` | `0b10101011_11001110_00000000.00000000_00000000_00000000` | ~`67.1112%`   |
 
 Note that multiplying by 2<sup>8</sup> requires using [analog values >100%](/wiki/game-mechanics/gate-behavior/README.md#inf-nan-and-illegal-values).
 
@@ -66,7 +66,7 @@ In this example `n=8`, but it can be generalized to split any 24-bit value into 
 
 * To split a 24-bit value `x` into its lower `n` bits `l` and the remaining high bits `h`:
 * `a = x * 2^-n`
-* `b = NOT(NOT(a))`
+* `b = NOT(NOT(a))` (you can also do `b = a - 100% + 100%` in an OR gate instead)
 * `c = b * 2^n`
 * if `c > x`, then `h = c - 2^(n - 24)`, else `h = c`
 * `d = x - h`
