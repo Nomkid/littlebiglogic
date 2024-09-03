@@ -106,7 +106,6 @@ TODO
 32-bit floating point numbers have finite precision and so there may be rounding after operations involving them. The classic example is that 0.1 + 0.2 = 0.30000000000000004 and not 0.3 as expected.
 
 
-
 See [the Wikipedia article](https://en.wikipedia.org/wiki/Round-off_error) for more information or search "floating point rounding errors". There are lots of helpful videos and explanations online.
 
 Understanding IEEE 754 rounding behavior is important for understanding [analog bitshifting](/wiki/computing-components/analog-conversions/README.md#analog-bitshifting). Floats in LittleBigPlanet uses the round-to-nearest rounding mode. This results in the following behavior, assuming Guard (G) is the last bit of the mantissa, and round and sticky (R, S) are the first two after the mantissa, with sticky being 1 if any following bits are 1.

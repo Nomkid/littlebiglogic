@@ -4,6 +4,12 @@
 
 TODO
 
+An analog adder with support for overflow using a Holy Cow converter:
+
+![image](adder1.png)
+
+The input order on the blue OR gate is important.
+
 ## Comparisons
 
 ### Basic analog equality

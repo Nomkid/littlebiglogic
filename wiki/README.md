@@ -21,7 +21,7 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 		* RPCS3
 
 * Computing components
-	* Analog value representations
+	* [Analog value representations](/wiki/computing-components/analog-value-representations/README.md)
 		* IEEE 754
 		* 2's complement
 		* Notes and readouts
@@ -34,14 +34,14 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 		* Basic analog to digital splitter/decoder
 		* [2-gate analog to digital splitter/decoder](computing-components/analog-conversions/README.md#holy-cow-converter)
 		* Greater than 24-bit splitter/decoder
-		* Analog bitshifting
+		* [Analog bitshifting](computing-components/analog-conversions/README.md#analog-bitshifting)
 	* Digital integer arithmetic
 		* Bitwise operations
 		* Addition
 		* Subtraction
 		* Bitshifting and rotation
 	* [Analog integer arithmetic](/wiki/computing-components/analog-integer-arithmetic/README.md)
-		* Addition and subtraction
+		* [Addition and subtraction](/wiki/computing-components/analog-integer-arithmetic/README.md#addition-and-subtraction)
 		* [Comparisons](/wiki/computing-components/analog-integer-arithmetic/README.md#comparisons)
 		* Multiplication
 		* [Division](/wiki/computing-components/analog-integer-arithmetic/README.md#division)
