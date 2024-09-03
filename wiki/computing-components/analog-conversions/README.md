@@ -33,7 +33,7 @@ Using a direction combiner in angleify mode, it is possible to split up to a 24-
 
 In the following image, the OR gates are in add mode and the direction combiners are in angleify mode with `-inf` in their bottom inputs.
 
-![image](2-gate-splitter-1.png)
+![image](2-gate-splitter-2.png)
 
 It's called the Holy Cow converter because that was the reaction when it was discovered.
 
