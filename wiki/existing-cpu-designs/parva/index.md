@@ -1,3 +1,8 @@
+---
+title: 'Parva'
+path: 'existing-cpu-designs/parva'
+---
+
 # Parva
 
 Parva is my (blue_flycatcher) computer <3

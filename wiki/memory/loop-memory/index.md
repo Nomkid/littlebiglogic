@@ -1,3 +1,8 @@
+---
+title: 'Loop Memory'
+path: 'memory/loop-memory'
+---
+
 # Loop memory
 
 100kB of memory in a single level baby 😎

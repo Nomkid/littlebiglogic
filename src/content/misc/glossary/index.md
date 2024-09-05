@@ -1,3 +1,8 @@
+---
+title: 'Glossary'
+path: 'misc/glossary'
+---
+
 * **ALU**: Arithmetic logic unit. The part of a CPU that handles basic mathematical operations of data.
 * **Analog**
 	* _In reference to signal values_: the aspect of a signal value that encodes a 32-bit floating point number, usually between -1 and 1, that can be read and manipulated by logic gates.

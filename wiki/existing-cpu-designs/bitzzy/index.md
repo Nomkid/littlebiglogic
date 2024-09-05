@@ -1,3 +1,8 @@
+---
+title: 'Bitzzy'
+path: 'existing-cpu-designs/bitzzy'
+---
+
 # Bitzzy
 
 Bitzzy is a LittleBigPlanet3 CPU made by Mazzetip that uses both digital and analog architecture. It has 16-bit addressing, 8-bit registers, is single-core and runs stable up to 10hz. 

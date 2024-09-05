@@ -1,3 +1,8 @@
+---
+title: 'Tag Memory'
+path: 'memory/tag-memory'
+---
+
 # Tag memory
 
 Tag memory is a method of storing analog values by trapping them in a tag connected to a tag sensor for that tag. It offers greater thermometer efficiency over more basic analog memory storage techniques, at the cost of higher latency and increased complexity. It also cannot be placed entirely on a microchip; it involves moving parts and takes up physical space.

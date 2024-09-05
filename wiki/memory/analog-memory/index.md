@@ -1,3 +1,8 @@
+---
+title: 'Analog Memory'
+path: 'memory/analog-memory'
+---
+
 # Analog memory
 
 It is possible to store data in analog values in signals to get much more efficiency storage than would be possible storing bits individually.
