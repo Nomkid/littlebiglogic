@@ -1,10 +1,20 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
+const designs = await getCollection('designs');
 const misc = await getCollection('misc');
 ---
 
 <Layout title='LittleBigLogic'>
+	<h2>CPU Designs</h2>
+	<ul>
+		{designs.map(page => (
+			<li>
+				<a href={`/designs/${page.slug}`}>{page.data.title}</a>
+			</li>
+		))}
+	</ul>
+	
 	<h2>Miscellaneous</h2>
 	<ul>
 		{misc.map(page => (
