@@ -1,9 +1,7 @@
 ---
 title: 'Parva'
-path: 'existing-cpu-designs/parva'
+creators: ['blue_flycatcher']
 ---
-
-# Parva
 
 Parva is my (blue_flycatcher) computer <3
 
@@ -18,8 +16,7 @@ Parva is my (blue_flycatcher) computer <3
 * 4 I/O ports
 * Note-based pixel display
 
-[video 1](parva_0.1_1.mp4) (30Hz version), [video 2](parva_0.1_2.mp4) (120Hz version)
-
+<video src="/parva/parva_0.1_1.mp4" height="360" controls></video>
 
 ## v0.2
 
@@ -35,3 +32,5 @@ Under construction, planned features:
 * Unlimited ROM
 * 16W (48B) L1 cache
 * 128W (384B) L2 cache
+
+<video src="/parva/parva_0.1_2.mp4" height="360" controls></video>

@@ -1,0 +1,36 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('designs');
+  
+  return pages.map(page => ({
+    params: { slug: page.slug },
+    props: { page, data: page.data },
+  }));
+}
+
+const { Content } = await Astro.props.page.render();
+const { title, creators } = Astro.props.data;
+---
+
+<Layout title={title}>
+  <h1 class="title">{title}</h1>
+  <p class="creators">by {creators.map(name => (name))}</p>
+  <Content />
+</Layout>
+
+<style>
+.title {
+  display: inline;
+  color: #8faee0;
+}
+
+.creators {
+  display: inline;
+  color: #7c7c98;
+  margin-top: 0;
+  margin-left: 1em;
+}
+</style>
