@@ -32,6 +32,8 @@ TODO
 
 TODO
 
+[video](cube1.mp4)
+
 ## Back-face culling
 
 https://en.wikipedia.org/wiki/Back-face_culling
