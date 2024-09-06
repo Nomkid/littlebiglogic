@@ -1,0 +1,21 @@
+---
+import { Image } from 'astro:assets';
+
+const { src, alt, ...attrs } = Astro.props;
+---
+<Image
+  src={src}
+  alt={alt}
+  widths={[240, 540, 720, src.width]}
+  sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${src.width}px`}
+  {...attrs}
+/>
+
+<style>
+img {
+  margin-block: 2.5rem;
+  border-radius: 0.75rem;
+  width: auto;
+  height: auto;
+}
+</style>

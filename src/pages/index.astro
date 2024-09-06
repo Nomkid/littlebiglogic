@@ -1,14 +1,37 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-const designs = await getCollection('designs');
-const misc = await getCollection('misc');
+
+const cpuDesigns = await getCollection('designs', ({ id, data }) => {
+	return id.startsWith('cpu/') && (import.meta.env.PROD ? !data.draft : true);
+});
+const memoryDesigns = await getCollection('designs', ({ id, data }) => {
+	return id.startsWith('memory/') && (import.meta.env.PROD ? !data.draft : true);
+});
+const misc = await getCollection('misc', ({ data }) => {
+	return import.meta.env.PROD ? !data.draft : true;
+});
 ---
 
 <Layout title='LittleBigLogic'>
-	<h2>CPU Designs</h2>
+	<p>
+		Welcome to LittleBigLogic, a wiki dedicated to building logic contraptions in LittleBigPlanet.
+	</p>
+
+	<h1>Table of Contents</h1>
+	
+	<h2>Designs</h2>
+	<h3>CPU</h3>
 	<ul>
-		{designs.map(page => (
+		{cpuDesigns.map(page => (
+			<li>
+				<a href={`/designs/${page.slug}`}>{page.data.title}</a>
+			</li>
+		))}
+	</ul>
+	<h3>Memory</h3>
+	<ul>
+		{memoryDesigns.map(page => (
 			<li>
 				<a href={`/designs/${page.slug}`}>{page.data.title}</a>
 			</li>

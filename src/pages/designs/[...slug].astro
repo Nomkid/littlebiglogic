@@ -17,8 +17,10 @@ const { title, creators } = Astro.props.data;
 
 <Layout title={title}>
   <h1 class="title">{title}</h1>
-  <p class="creators">by {creators.map(name => (name))}</p>
-  <Content />
+  {creators.length > 0 && (<p class="creators">by {creators.map(name => (name))}</p>)}
+  <div class="container">
+    <Content />
+  </div>
 </Layout>
 
 <style>
@@ -31,6 +33,11 @@ const { title, creators } = Astro.props.data;
   display: inline;
   color: #7c7c98;
   margin-top: 0;
+  margin-left: .4em;
+}
+
+.container {
   margin-left: 1em;
+  margin-right: 1em;
 }
 </style>

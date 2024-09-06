@@ -1,9 +1,10 @@
 ---
 title: 'Analog Memory'
-path: 'memory/analog-memory'
+creators: []
 ---
-
-# Analog memory
+import Image from '@components/Image.astro';
+import register from 'analog/register1.png';
+import dualchannel from 'analog/dualchannel1.png';
 
 It is possible to store data in analog values in signals to get much more efficiency storage than would be possible storing bits individually.
 
@@ -11,7 +12,7 @@ It is possible to store data in analog values in signals to get much more effici
 
 Registers can be used to store a single analog value that can be read from and written to instantly.
 
-![image](register1.png)
+<Image src={register} alt="Register" />
 
 ## Single channel
 
@@ -21,7 +22,7 @@ TODO
 
 TODO
 
-![image](dualchannel1.png)
+<Image src={dualchannel} alt="Dual Channel" />
 
 ## Byte packing
 
