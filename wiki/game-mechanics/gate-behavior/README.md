@@ -68,9 +68,19 @@ When adding three or more analog inputs, saturation is only done at the end. An 
 NOT gates and any inverted gates destroy direction information; they always output a forwards direction.
 There is no way to observe the direction of a digitally inactive signal, so effectively only active signals have a direction.
 
-## Other gates
+## Other components
+
+### Direction combiner
+
+In angleify mode, the output is effectively `atan2(top, bottom)` scaled to 100% instead of the usual 2π.
+
+In combine mode, the output is `abs(top) - abs(bottom)`. The output is not capped to 100%.
+
+### Memorizer
 
 TODO
+
+Idk how this works because I don't have the DLC.
 
 ## Microchips and sequencers
 
@@ -79,6 +89,22 @@ TODO
 ## Tags
 
 TODO
+
+## Unreleased gates
+
+### Filter
+
+The filter does not cap its output to 100%.
+
+### Color tweaker
+
+TODO
+
+### Tag radar
+
+TODO
+
+Also don't have the DLC for this.
 
 
 ## Inf, NaN, and illegal values
@@ -100,6 +126,10 @@ TODO
 ### Subnormals
 
 TODO
+
+See https://en.wikipedia.org/wiki/IEEE_754#Subnormal_numbers
+
+Subnormals are disabled on LBP3 on the PS4.
 
 ## Rounding errors
 

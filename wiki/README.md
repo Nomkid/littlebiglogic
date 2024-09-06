@@ -1,6 +1,6 @@
 Table of contents:
 
-This wiki is new and most of it is incomplete. Sections with links have content. Sections without links are not yet written. If you would like to request a section to be written then you can do so in the Discord server or by [creating an issue](https://github.com/hivemq/hivemq-policy-cookbooks/issues/new).
+This wiki is new and most of it is incomplete. Sections with links have content. Sections without links are not yet written. If you would like to request a section to be written then you can do so in the Discord server or by [creating an issue](https://github.com/Nomkid/littlebiglogic/issues/new).
 
 * Game mechanics
 	* [Gate behavior](game-mechanics/gate-behavior/README.md)
@@ -26,7 +26,7 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 		* 2's complement
 		* Notes and readouts
 		* Word sizes
-		* Fixed point
+		* [Fixed point](/wiki/computing-components/analog-value-representations/README.md#fixed-point)
 		* 16-bit IEEE 754
 	* [Analog conversions](computing-components/analog-conversions/README.md)
 		* [Digital to analog combiner/encoder](/wiki/computing-components/analog-conversions/README.md#digital-to-analog-combinerencoder)
@@ -46,12 +46,14 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 		* Multiplication
 		* [Division](/wiki/computing-components/analog-integer-arithmetic/README.md#division)
 		* [Arbitrary bitshifting](/wiki/computing-components/analog-integer-arithmetic/README.md#arbitrary-bitshifting)
-	* Analog float arithmetic
-		* Addition and subtraction
-		* Multiplication
-		* Subtracting division
-		* Newton-Raphson division
-		* Arctan division
+	* [Analog float arithmetic](/wiki/computing-components/analog-float-arithmetic/README.md)
+		* [Addition and subtraction](/wiki/computing-components/analog-float-arithmetic/README.md#addition-and-subtraction)
+		* [Multiplication](/wiki/computing-components/analog-float-arithmetic/README.md#multiplication)
+		* [Iterative division](/wiki/computing-components/analog-float-arithmetic/README.md#iterative-division)
+		* [Arctan division](/wiki/computing-components/analog-float-arithmetic/README.md#arctan-division)
+		* [Square roots](/wiki/computing-components/analog-float-arithmetic/README.md#square-roots)
+		* [Trigonometric functions](/wiki/computing-components/analog-float-arithmetic/README.md#trigonometric-functions)
+		* Exponents and logarithms
 	* Control flow
 		* Encoders and decoders
 		* Multiplexers
@@ -149,12 +151,13 @@ This wiki is new and most of it is incomplete. Sections with links have content.
 	* Advanced GPU features
 		* Sprites
 		* Scrolling
-	* 3D Graphics
-		* Vectors and matrices
-		* Trigonometric operations
+	* [3D Graphics](/wiki/graphics/3d-graphics/README.md)
+		* [Vectors and matrices](/wiki/graphics/3d-graphics/README.md#vectors-and-matrices)
+		* Translations
 		* Rotations
 		* Projections
 		* Rendering a cube
+		* Back face culling
 	* Display interfaces
 		* Data encodings
 		* Buffering
