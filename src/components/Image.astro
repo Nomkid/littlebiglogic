@@ -1,9 +1,10 @@
 ---
-import { Image } from 'astro:assets';
+// Import declaration conflicts with local declaration of 'Image'. ????
+import { Image as Img } from 'astro:assets';
 
 const { src, alt, ...attrs } = Astro.props;
 ---
-<Image
+<Img
   src={src}
   alt={alt}
   widths={[240, 540, 720, src.width]}
