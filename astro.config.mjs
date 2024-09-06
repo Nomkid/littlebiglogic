@@ -4,6 +4,6 @@ import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://littlebiglogic.jeevio.xyz',
+  site: 'https://wiki.littlebigcomputer.com',
   integrations: [mdx()],
 });
