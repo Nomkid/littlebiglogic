@@ -14,8 +14,9 @@ const misc = await getCollection('misc', ({ data }) => {
 ---
 
 <Layout title='LittleBigLogic'>
-	<p>
-		Welcome to LittleBigLogic, a wiki dedicated to building logic contraptions in LittleBigPlanet.
+	<p class="welcome">
+		Welcome to LittleBigLogic, a wiki dedicated to building logic contraptions in LittleBigPlanet.<br>
+		Want to contribute? <a href="https://github.com/Nomkid/littlebiglogic/issues/new" target="_blank">Open an Issue</a> or <a href="https://github.com/Nomkid/littlebiglogic/compare" target="_blank">Submit a Pull Request</a> on GitHub.
 	</p>
 
 	<h1>Table of Contents</h1>
@@ -47,3 +48,9 @@ const misc = await getCollection('misc', ({ data }) => {
 		))}
 	</ul>
 </Layout>
+
+<style>
+.welcome {
+	font-size: 14pt;
+}
+</style>

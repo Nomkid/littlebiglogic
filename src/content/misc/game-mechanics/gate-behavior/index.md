@@ -1,4 +1,6 @@
-# Gate behavior
+---
+title: 'Gate Behavior'
+---
 
 This covers the basic mechanics of logic components in the game.
 

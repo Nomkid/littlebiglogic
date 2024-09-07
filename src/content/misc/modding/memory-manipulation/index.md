@@ -1,4 +1,6 @@
-# Memory manipulation
+---
+title: 'Memory Manipulation'
+---
 
 When running LBP on RPCS3, it is possible to use external software to directly view and modify the memory of the game while it is running. This can be useful for certain logic features, such as getting an `inf` signal value for [instant analog-to-digital conversion](/wiki/computing-components/analog-conversions/README.md#2-gate-analog-to-digital-splitterdecoder).
 

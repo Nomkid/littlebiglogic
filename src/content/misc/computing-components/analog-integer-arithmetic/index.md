@@ -1,4 +1,6 @@
-# Analog integer arithmetic
+---
+title: 'Analog Integer Arithmetic'
+---
 
 ## Addition and subtraction
 

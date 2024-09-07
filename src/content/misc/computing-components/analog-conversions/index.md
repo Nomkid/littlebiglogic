@@ -1,6 +1,5 @@
 ---
 title: 'Analog Conversions'
-path: 'computing-components/analog-conversions'
 ---
 
 # Analog conversions
