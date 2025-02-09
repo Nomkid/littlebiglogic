@@ -2,6 +2,8 @@
 
 100kB of memory in a single level baby 😎
 
+[Youtube video](https://www.youtube.com/watch?v=jzAx65my6N0)
+
 ### Loop core
 
 TODO: Fix videos

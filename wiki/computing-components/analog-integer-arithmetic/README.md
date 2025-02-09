@@ -18,7 +18,7 @@ A circuit to check for equality between two analog signals:
 
 ![image](eq2.png)
 
-The pink OR gate is in max value mode. The other OR gates are in add mode. The AND gate is in add mode. This will work for positive and negative analog values. It will output an analog value of 100% if the values are equal, 0% otherwise.
+The pink OR gate is in max value mode. The other OR gates are in add mode. The AND gate is in multiply mode. This will work for positive and negative analog values. It will output an analog value of 100% if the values are equal, 0% otherwise.
 
 ### Inf direction combiner equality
 
@@ -34,13 +34,15 @@ TODO
 
 ## Division
 
-16-bit analog divider:
+24-bit analog divider:
 
-![image](div1.png)
+![image](div3.png)
 
-The top output is the quotient. The bottom output is the remainder. This design can be adapted for any word size up to 24 bits. Ensure the AND gate with the battery at the bottom is outputting a value of 1 for the word size you're using. In this example, the word size is 16 bits so a value of 2<sup>-16</sup> is needed, which is equal to 0.25<sup>8</sup> hence the 8 inputs into the AND gate.
+The top output is the quotient. The bottom output is the remainder. This design can be adapted for any word size up to 24 bits. Ensure the AND gate with the battery at the bottom is outputting a value of 1 for the word size you're using. In this example, the word size is 24 bits so a value of 2<sup>-24</sup> is needed, which is equal to 0.25<sup>12</sup> hence the 12 inputs into the AND gate.
 
-A more efficient design could be built using Holy Cow converters.
+This divider works by using [binary long division](https://en.wikipedia.org/wiki/Division_algorithm#Integer_division_(unsigned)_with_remainder). To calculate the `x/y`, it repeatedly subtracts `y` bitshifted left by gradually smaller amounts, starting with `x - (y << 23)` and ending with `x - (y << 0)`. Each time a subtraction is attempted, if the result is greater than or equal to 0, the corresponding bit in the quotient is set to 1. Otherwise it is set to 0. The remainder is what is left of `x` after all the subtractions have been attempted.
+
+![image](div2.png)
 
 ## Arbitrary bitshifting
 

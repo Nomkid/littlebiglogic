@@ -43,8 +43,6 @@ Chain enough of these iterations together to get sufficiently high accuracy, and
 
 A complete circuit implementing division this way for f12 values:
 
-![image](divider1.png)
-
 ## Arctan division
 
 The direction combiner in angleify mode provides a way to calculate `arctan(x)`. This can be used to calculate an approximate value for `1 / x`:
